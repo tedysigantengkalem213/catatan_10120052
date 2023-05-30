@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/home"
+        android:title="Catatan"
+        android:icon="@drawable/baseline_notes_24"/>
+    <item android:id="@+id/notification"
+        android:title="User"
+        android:icon="@drawable/baseline_account_box_24"/>
+    <item android:id="@+id/settings"
+        android:title="About"
+        android:icon="@drawable/baseline_question_mark_24"/>
+</menu>

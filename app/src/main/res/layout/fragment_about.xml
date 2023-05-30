@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/profile_image"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/kogu"
+        app:civ_border_width="2dp"
+        app:civ_border_color="#FF000000"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp"/>
+
+    <TextView
+        android:id="@+id/profile_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bucaol"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_below="@id/profile_image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+    <TextView
+        android:id="@+id/profile_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Buku Catatan Online"
+        android:textSize="16sp"
+        android:layout_below="@id/profile_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aplikasi Bucaol adalah aplikasi yang dibuat untuk mempermudah user mencatat kegatan sehari hari nya dan mencatat jadwal acara yang mungkin harus dia simpan ."
+        android:textSize="12sp"
+        android:layout_below="@id/profile_description"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="30dp" />
+</RelativeLayout>
